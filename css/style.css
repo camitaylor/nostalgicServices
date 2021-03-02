@@ -794,6 +794,7 @@ body:after {
   -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0);
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0);
   opacity: 0.5;
+  background-color: black;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-menu-toggle {
   color: #fff;
