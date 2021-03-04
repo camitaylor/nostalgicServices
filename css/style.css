@@ -111,6 +111,8 @@ body:after {
   background: #f205e2;
   border-color: #f205e2;
   color: #fff;
+  border-radius: 10px;
+  margin-left: 83%;
 }
 .btn.btn-primary:hover {
   background: #000;
@@ -1324,7 +1326,7 @@ body:after {
 
 .form .form-control {
   border: none;
-  border-radius: 0px;
+  border-radius: 10px;
   border-bottom: 1px solid #eee;
 }
 .form .form-control:active,
