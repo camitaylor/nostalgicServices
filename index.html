@@ -166,7 +166,7 @@
               </p>
             </div>
             <!--about us image. NS logo-->
-            <div class="col-lg-4">
+            <div class="col-lg-4" style="margin-bottom: 10px;">
               <img
                 src="images/about_img.png"
                 alt="Nostalgic Services logo"
@@ -420,7 +420,7 @@
                 </div>
                 <div class="service-about">
                   <h2>Cami Taylor</h2>
-                  <p class="font-weight-bold">UI/UX Designer</p>
+                  <p class="font-weight-bold">UI/UX Designer<br>Software Developer</p>
                 </div>
               </div>
             </div>
@@ -443,7 +443,7 @@
                 </div>
                 <div class="service-about">
                   <h2>Jeremy Hatfield</h2>
-                  <p class="font-weight-bold">Sr. Software Developer</p>
+                  <p class="font-weight-bold">Senior Software Developer</p>
                 </div>
               </div>
             </div>
@@ -462,7 +462,7 @@
                 <div class="service-about">
                   <h2>Katie Stapleton</h2>
                   <p class="font-weight-bold">
-                    Project Manager / Software Developer
+                    Project Manager <br> Software Developer
                   </p>
                 </div>
               </div>
@@ -482,55 +482,66 @@
         <!--contact form to send message -->
         <div class="row justify-content-between">
           <div class="col-lg-6">
-            <form action="#" class="form">
+            <form action="#" class="form" style="box-shadow: 0 0 10px 4px #333333; background-color: white; padding: 15px 30px;">
+              <fieldset>
               <div class="row mb-4">
                 <!-- first name -->
                 <div class="form-group col-6">
+                  <label style="color: #333333"><b>First Name:</b></label>
                   <input
                     type="text"
                     class="form-control"
                     placeholder="First name"
+                    style="box-shadow: 0 0 2.5px 2.5px #bfbfbf;"
                   />
                 </div>
-                <!-- full name -->
+                <!-- last name -->
                 <div class="form-group col-6">
+                  <label style="color: #333333"><b>Last Name:</b></label>
                   <input
                     type="text"
                     class="form-control"
                     placeholder="Last name"
+                    style="box-shadow: 0 0 2.5px 2.5px #bfbfbf;"
                   />
                 </div>
               </div>
               <!-- email  -->
               <div class="row mb-4">
-                <div class="form-group col-12">
+                <div class="form-group col-12" style="margin-top: -20px">
+                  <label style="color: #333333"><b>Email:</b></label>
                   <input
                     type="email"
                     class="form-control"
                     placeholder="Email address"
+                    style="box-shadow: 0 0 2.5px 2.5px #bfbfbf;"
                   />
                 </div>
               </div>
               <!-- subject -->
               <div class="row mb-4">
-                <div class="form-group col-12">
+                <div class="form-group col-12" style="margin-top: -20px">
+                  <label style="color: #333333"><b>Service:</b></label>
                   <input
                     type="text"
                     class="form-control"
                     placeholder="Service you would like to reserve"
+                    style="box-shadow: 0 0 2.5px 2.5px #bfbfbf;"
                   />
                 </div>
               </div>
               <!-- message -->
               <div class="row mb-4">
-                <div class="form-group col-12">
+                <div class="form-group col-12" style="margin-top: -20px">
+                  <label style="color: #333333"><b>Message:</b></label>
                   <textarea
                     name="#"
                     id="#"
                     cols="30"
-                    rows="10"
+                    rows="5"
                     class="form-control"
-                    placeholder="Type your message here.."
+                    placeholder="Type your message here..."
+                    style="box-shadow: 0 0 2.5px 2.5px #bfbfbf;"
                   ></textarea>
                 </div>
               </div>
@@ -544,18 +555,20 @@
                   />
                 </div>
               </div>
+              </fieldset>
             </form>
+            <p style="font-size: 10px; margin: 10px;"><i>*Form is disabled for security reasons</i></p>
           </div>
           <!-- Location Information -->
-          <div class="col-lg-5">
+          <div class="col-lg-5" style="margin: 35px;">
             <!-- location 1 -->
             <h3>Missouri</h3>
             <ul class="list-unstyled mb-5">
               <li class="mb-3">
                 <strong class="d-block mb-1">Address</strong>
                 <span
-                  >203 Fake St. Mountain View, Kansas City, Missouri,
-                  USA</span
+                  >203 Fake St. Mountain View, <br>Kansas City, Missouri 64109
+                  </span
                 >
               </li>
               <li class="mb-3">
@@ -569,8 +582,8 @@
               <li class="mb-3">
                 <strong class="d-block mb-1">Address</strong>
                 <span
-                  >203 Fake St. Mountain View, Overland Park, Kansas,
-                  USA</span
+                  >203 Fake St. Mountain View, <br>Overland Park, Kansas, 66212
+                  </span
                 >
               </li>
               <li class="mb-3">
@@ -590,44 +603,15 @@
           <div class="col-md-3">
             <!-- ftr.C1. Services #1  -->
             <!-- ISSUE: "services" listed twice. consider changing to "Service Available in:" "Service location" etc-->
-            <h3 class="footer-title">Contact</h3>
+            <h3 class="footer-title">Contact us directly:</h3>
             <p>
               <!-- ISSUE: address needs to be changed or removed-->
               <span class="d-inline-block d-md-block"
-                >203 Fake St. Mountain View,</span
-              >
-              Kansas City, Missouri, USA
+                >NostaglicServices@email.dev</span>
             </p>
           </div>
           <div class="col-md-5 mx-auto">
-            <div class="row">
-              <!-- <div class="col-lg-4">
-                  <h3 class="footer-title">Services</h3>
-                  <ul class="list-unstyled">
-                    <li><a href="#">Content Marketing</a></li>
-                    <li><a href="#">Brand & Logo</a></li>
-                    <li><a href="#">Social Advertising</a></li>
-                  </ul>
-                </div>
-                
-                <div class="col-lg-4">
-                  <h3 class="footer-title">Resources</h3>
-                  <ul class="list-unstyled">
-                    <li><a href="#">Social Marketing</a></li>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Web Development</a></li>
-                  </ul>
-                </div>
-                
-                <div class="col-lg-4">
-                  <h3 class="footer-title">Templates</h3>
-                  <ul class="list-unstyled">
-                    <li><a href="#">Illustration</a></li>
-                    <li><a href="#">Video Editing</a></li>
-                    <li><a href="#">Copywriting</a></li>
-                  </ul>
-                </div>-->
-            </div>
+
           </div>
           <!-- ftr.C4. "Follow Me" -->
           <div class="col-md-3">
@@ -647,6 +631,7 @@
             <a href="#" class="social-circle m-2">
               <span class="icon-linkedin"></span>
             </a>
+            <p style="font-size: 10px; margin: 10px;"><i>*Social media link are for display only</i></p>
           </div>
         </div>
 
