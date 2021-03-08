@@ -10,6 +10,18 @@ body {
   font-size: 1rem;
 }
 
+#logo {
+  padding-left: 75px;
+}
+
+#main_header {
+  border-radius: 10px !important;
+}
+
+#nav {
+  padding-right: 75px;
+}
+
 ::-moz-selection {
   background: #000;
   color: #fff;
@@ -103,6 +115,8 @@ body:after {
   background: #f205e2;
   border-color: #f205e2;
   color: #fff;
+  border-radius: 10px;
+  margin-left: 83%;
 }
 .btn.btn-primary:hover {
   background: #000;
@@ -120,6 +134,10 @@ body:after {
 
 .bg-black {
   background: #000;
+}
+
+.form {
+  border-radius: 10px;
 }
 
 .form-control {
@@ -942,6 +960,23 @@ body:after {
   color: #fff;
   text-align: center;
 }
+
+.p-4 {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.featImg {
+  border-radius: 10px 10px 0px 0px !important;
+}
+
+.img-fluid {
+  border-radius: 10px;
+}
+
+.service {
+  border-radius: 10px;
+}
+
 .service .service-about *:last-child {
   margin-bottom: 0;
 }
@@ -1316,7 +1351,7 @@ body:after {
 
 .form .form-control {
   border: none;
-  border-radius: 0px;
+  border-radius: 10px;
   border-bottom: 1px solid #eee;
 }
 .form .form-control:active,
