@@ -869,8 +869,9 @@ body:after {
 .site-blocks-cover,
 .site-blocks-cover > .container > .row {
   min-height: 500px;
-  height: calc(100vh);
-  max-height: fit-content;
+  height: 100%;
+  height: fit-content;
+  min-width: fit-content;
 }
 .site-blocks-cover.inner-page-cover,
 .site-blocks-cover.inner-page-cover > .container > .row {
